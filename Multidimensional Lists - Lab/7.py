@@ -6,6 +6,7 @@ for i in range(rows):
     arr.append(numbers)
 max = arr[0][0]+arr[0][1]+arr[1][0]+arr[1][1]
 max_square = []
+max_square.append([[arr[0][0], arr[1][0]],[arr[0][1], arr[1][1]]])
 for i in range(rows-1):
     for j in range(columns-1):
         square = []
@@ -15,9 +16,11 @@ for i in range(rows-1):
         if max<sum_square:
             max_square.append(square)
             max = sum_square
-#print(max_square[len(max_square)-1])
+
+max_square=max_square[len(max_square)-1]
+#print(max_square)
 for j in range(2):
     for i in range(2):
-        print(max_square[len(max_square)-1][i][j], end = " ")
+        print(max_square[i][j], end = " ")
     print()
 print(max)
