@@ -1,6 +1,5 @@
 # Python Data Structures Exercises Repository
-This repository contains a collection of exercises and labs focused on various data structures in Python, such as Stacks, Queues, Tuples, Sets, and Multidimensional Lists. These exercises are designed to help you practice and improve your understanding of these data structures and their applications in Python programming.
-
+This repository contains a collection of exercises and labs focused on various data structures in Python, such as Stacks, Queues, Tuples, Sets, and Multidimensional Lists. These exercises are from SoftUni.
 ## Table of Contents
 * [Exercise Stacks, Queues, Tuples, and Sets](./Exercise%20Stacks,%20Queues,%20Tuples,%20and%20Sets)
 * [Exercises Multidimensional Lists](./Exercises%20Multidimensional%20Lists)
