@@ -141,7 +141,7 @@ Single line string
 ###Output
 The list with the collected colors
 
-###Constrains
+####Constrains
 You will not receive an empty string
 Please consider only the colors mentioned above
 There won't be any cases with repeating colors
